@@ -1,0 +1,83 @@
+body {
+	/*position: absolute;*/
+    /*display: flex;*/
+/*    width: 100vw;
+    height: 100vh;*/
+    background-image: url('https://hdwallsource.com/img/2014/4/nice-brown-background-18644-19116-hd-wallpapers.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+ /*   align-items: center;
+    justify-content: center;*/
+}
+
+.bio {
+	/*position: fixed;*/
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.front {
+	width: 80vw;
+	height: 80vh;
+	border: 2px solid black;
+	margin: 0 auto;
+}
+
+.myName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    font-size: 40px;
+}
+
+.two {
+	font-size: 30px;
+}
+
+.socialLogos {
+	display: flex;
+	flex-direction: row;
+	width: 200px;
+	height: 200px;
+	align-items: center;
+	justify-content: space-between;
+	left: 45%;
+}
+
+.logo {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	left: 210%;
+	top: 70%;
+}
+
+.firstBreak {
+	margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
