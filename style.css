@@ -1,83 +1,173 @@
 body {
-	/*position: absolute;*/
-    /*display: flex;*/
-/*    width: 100vw;
-    height: 100vh;*/
-    background-image: url('https://hdwallsource.com/img/2014/4/nice-brown-background-18644-19116-hd-wallpapers.jpg');
-    background-size: cover;
-    background-repeat: repeat;
- /*   align-items: center;
-    justify-content: center;*/
+	position: absolute;
 }
 
 .bio {
-	/*position: fixed;*/
+    width: 100vw;
     height: 50px;
-    width: 100%;
-    background-color: black;
+    background-color: midnightblue;
+    display: block;
+    margin-left: -8px;
+    margin-right: -20px;
+    margin-top: -10px;
 }
 
+.navLinks {
+	position: relative;
+	padding: 80px;
+	top: 5px;
+	font-size: 25px;
+	font-family: 'Francois One', sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+
+.navLinks:hover {
+	text-decoration: underline;
+}
+
+
 .front {
-	width: 80vw;
-	height: 80vh;
-	border: 2px solid black;
-	margin: 0 auto;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-color: aliceblue;
+	/*background-image: url('https://hdwallsource.com/img/2014/4/nice-brown-background-18644-19116-hd-wallpapers.jpg');*/
+	/*background-size: cover;
+    background-repeat: repeat;*/
+	border: 1px solid black;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -50px;
+}
+
+#frontContainer {
+	width: 700px;
+	height: 400px;
+	margin-top: 140px;
 }
 
 .myName {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 30%;
-    font-size: 40px;
+    font-size: 70px;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: -10px;
 }
 
-.two {
-	font-size: 30px;
+.myName2 {
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: -30px;
 }
+
 
 .socialLogos {
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	width: 200px;
 	height: 200px;
-	align-items: center;
 	justify-content: space-between;
-	left: 45%;
 }
 
 .logo {
-	position: relative;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	left: 210%;
-	top: 70%;
+	align-items: center;
 }
 
 .firstBreak {
 	margin-top: 50px;
-    margin-bottom: 50px;
-    height: 50px;
-    width: 100%;
+    margin-bottom: -70px;
+    height: 40px;
+    width: 100vw;
     background-color: black;
     display: block;
+    margin-left: -8px;
+}
+
+#secondPage {
+	background: lavender;
+	display: flex;
+	flex-direction: row;
 }
 
 
+.spoon {
+	position: relative;
+	height: 100%;
+	width: 33%;
+	background-color: dodgerblue;
+}
 
+.fork {
+	position: relative;
+	height: 100%;
+	width: 33%;
+	background-color: skyblue;
+}
 
+.knife {
+	position: relative;
+	height: 100%;
+	width: 34%;
+	background-color: powderblue;
+}
 
+.logos {
+	position: relative;
+	display: flex;
+	left: 15%;
+	top: 100px;
+}
 
+.logosHeader {
+	position: relative;
+	top: 40px;
+	font-size: 40px;
+	font-family: 'Luckiest Guy', cursive;
+	margin-bottom: -35px;
+	color: navy;
+}
 
+.logosHeaderTwo {
+	position: relative;
+	top: 40px;
+	font-size: 35px;
+	font-family: 'Luckiest Guy', cursive;
+	text-decoration: none;
+	margin-bottom: 60px;
+}
 
+.logosHeaderTwo:hover {
+	text-decoration: underline;
+}
 
+.gameText {
+	font-size: 24px;
+	font-family: 'Concert One', cursive;
+}
 
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
 
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
 
-
-
-
+.fourthPage {
+	background-color: blue;
+}
 
