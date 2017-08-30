@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -10,24 +9,27 @@
   <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<title>Michael Klopman Portfolio</title>
-	<script src="main.js"></script>
 </head>
 
 <body id="body">
 <nav class="bio">
-<center><a class="navLinks one" href="#secondPage">About</a>
-<a class="navLinks two" href="#">Projects</a>
-<a class="navLinks three" href="#">More</a></center>
+<center><a class="navLinks one" href="#secondPage">My Work</a>
+<a class="navLinks two" href="#thirdPage">My Skills</a>
+<a id="more" class="navLinks three" href="#fourthPage">About Me</a></center>
 </nav>
 
 <div class="front">
 
 
-<center><div id="frontContainer">
-<h1 class="animated bounceInLeft myName">I'm Michael Klopman</h1>
+<div id="frontContainer">
+<h1 class="animated bounceInLeft myName">Michael Klopman</h1>
 
-<h3 class="animated bounceInRight myName2">And My Stack Is Full</h3>
+<h3 class="animated bounceInRight myName2">My Stack Is Full</h3>
+
+<h5 class="animated bounceInDown myName3">(You Get It, Right? Ok Cool)</h5>
 
 <div class="animated bounce infinite socialLogos">
 		<a class="logo" href="https://twitter.com/Mklopman" target="_blank"><img src="./images/twitter_logo.png"/></a>
@@ -36,7 +38,7 @@
 </div>
 
 </div>
-</center>
+
 </div>
 
 <nav class="firstBreak"></nav> 
@@ -44,24 +46,32 @@
 <div class="front" id="secondPage">
 
 <div class="spoon">
-<center><div class="logosHeader">THE SPORTS LOGOS GAME</div></center>
-<center><div class="logosHeaderTwo"><a class="logosHeaderTwo hvr-grow" href="https://mklopman.github.io/Sports-Logos-Game/">Click Here To Play</a></div></center>
+<div class="logosHeader">THE SPORTS LOGOS GAME</div>
+<div class="logosHeaderTwo"><a class="logosHeaderTwo hvr-grow" target="_blank" href="https://mklopman.github.io/Sports-Logos-Game/">Check It Out</a></div>
 </br>
-<center><div><img class="hvr-grow" src='./images/logos.gif'/></div></center>
+<div><img id="gif" class="hvr-grow" src='./images/logos.gif'/></div>
 </br>
-<!-- <center><div class="gameText">You think you know your American sports teams? Test out your knowledge and see how many team logos you can guess by playing "Name That Logo: Sports Edition."</div></center> -->
+<div class="logosHeaderThree"><a class="logosHeaderThree hvr-grow" target="_blank" href="https://github.com/mklopman/Sports-Logos-Game">View On GitHub</a></div>
 </div>
 
 
 <div class="fork">
-<center><div class="barsHeader"></div></center>
-<center><div class="barsHeaderTwo"><a class="logosHeaderTwo" href="#"></a></div></center>
+<div class="barsHeader">TOP 20 SPORTS BAR APP</div>
+<div class="barsHeaderTwo"><a class="logosHeaderTwo hvr-grow" target="_blank" href="https://sports-bar-app.herokuapp.com/">Check It Out</a></div>
+</br>
+<div><img id="gif2" class="hvr-grow" src='./images/sportsbar_app.gif' /></div>
+</br>
+<div class="logosHeaderThree"><a class="logosHeaderThree hvr-grow" target="_blank" href="https://github.com/mklopman/sportsbar-crud-app">View On GitHub</a></div>
 </div>
 
 
 <div class="knife">
-<center><div class="barsHeader"></div></center>
-<center><div class="barsHeaderTwo"><a class="logosHeaderTwo" href="#"></a></div></center>
+<div class="fanFinderHeader">FAN FINDER</div>
+<div class="fanFinderHeaderTwo"><a class="logosHeaderTwo hvr-grow" target="_blank" href="#">Check It Out</a></div>
+</br>
+<div><img id="gif2" class="hvr-grow" src='./images/fan_finder.jpg' /></div>
+</br>
+<div class="fanFinderHeaderThree"><a class="fanFinderHeaderThree hvr-grow" target="_blank" href="https://github.com/mklopman/final-project">View On GitHub</a></div>
 </div>
 
 
@@ -69,44 +79,56 @@
 
 <nav class="firstBreak"></nav> 
 
-<div class="front">
+<div class="front" id="thirdPage">
 
-
-<center><div id="frontContainer">
-<!-- <h1 class="animated bounceInLeft myName">I'm Michael Klopman</h1>
-
-<h3 class="animated bounceInRight myName2">And My Stack Is Full</h3>
-
-<div class="animated bounce infinite socialLogos">
-		<a class="logo" href="https://twitter.com/Mklopman" target="_blank"><img src="./images/twitter_logo.png"/></a>
-		<a class="logo" href="https://github.com/mklopman" target="_blank"><img src="./images/github_logo.png"/></a>
-		<a class="logo" href="https://www.linkedin.com/in/michael-klopman-0b699415/" target="_blank"><img src="./images/linkedIn_logo.png"/></a>
+<div class="skillsHeaderBorder">
+<h1 class="skillsHeader">MY SKILLS</h1>
 </div>
 
+<div class="outerSkillsDiv">
+	<nav class="skills">
+		<div class="skillsList" id="javascript"><p>Javascript</p></div>
+		<div class="skillsList" id="jquery"><p>jQuery</p></div>
+		<div class="skillsList" id="ruby"><p>Ruby</p></div>
+		<div class="skillsList" id="rails"><p>Rails</p></div>
+		<div class="skillsList" id="react"><p>React</p></div>
+		<div class="skillsList" id="express"><p>Express</p></div>
+		<div class="skillsList" id="node"><p>Node.js</p></div>
+		<div class="skillsList" id="html"><p>HTML</p></div>
+		<div class="skillsList" id="css"><p>CSS</p></div>
+		<div class="skillsList" id="postgresql"><p>PostgreSQL</p></div>
+	</nav>
 </div>
-</center> -->
+
+
+
+
+
 </div>
 
 <nav class="firstBreak"></nav> 
 
-<div class="front fourthPage">
+<div class="front" id="fourthPage">
 
 
-<center><div id="frontContainer">
-<!-- <h1 class="animated bounceInLeft myName">I'm Michael Klopman</h1>
+<h1 class="aboutMeHeader">ABOUT ME</h1>
 
-<h3 class="animated bounceInRight myName2">And My Stack Is Full</h3>
 
-<div class="animated bounce infinite socialLogos">
-		<a class="logo" href="https://twitter.com/Mklopman" target="_blank"><img src="./images/twitter_logo.png"/></a>
-		<a class="logo" href="https://github.com/mklopman" target="_blank"><img src="./images/github_logo.png"/></a>
-		<a class="logo" href="https://www.linkedin.com/in/michael-klopman-0b699415/" target="_blank"><img src="./images/linkedIn_logo.png"/></a>
+<div class="aboutMeContainer">
+	<p class="aboutMeText">Hey. I'm Michael, a former journalist originally from North Potomac, Maryland who recently jumped into the wide world of web development. In August 2017, I graduated from the Web Development Immersive course at General Assembly and I'm now a full-stack web developer living in New York City. As you might tell from the projects above, I'm also kind of a sports fantatic and that's pretty much who I am when I'm not coding. But when I <span id="am">am</span> coding, I love playing around with Ruby on Rails, Javascript, jQuery, Express and React. Check out my work above and reach out to me at michaelklopman@gmail.com... And if you're into YouTube deep dives like me, you can check out some of my favorite sports moments (DC/Maryland teams) with my random highlight generator over there --></p>
 </div>
 
-</div>
-</center> -->
+<div class="videoContainer">
+		<button id="playButton">New Highlight!</button>
+		<div class="videoTitle"></div>
+		<div class="videoEmbed"></div>
 </div>
 
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+</div>
+
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="main.js"></script>
 </html>
